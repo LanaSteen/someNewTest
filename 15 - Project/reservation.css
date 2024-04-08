@@ -1,0 +1,131 @@
+.mainReservation {
+  width: 100%;
+  height: 100vh;
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.mainReservation .makeAReservation {
+  margin-top: 5%;
+  color: #AE9A64;
+  font-size: 4vw;
+  letter-spacing: 3px;
+}
+.mainReservation .toHelpUs {
+  color: white;
+  font-size: 1, 1vw;
+  text-align: center;
+}
+.mainReservation .label1 {
+  color: white;
+  font-size: 13px;
+}
+.mainReservation .inputDataAll {
+  width: 93%;
+}
+.mainReservation .inputDataAll .inputData1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.mainReservation .inputDataAll .inputData1 .inputData1_2 {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.mainReservation .inputDataAll .inputData1 .inputData1_2 .black {
+  color: white;
+  border: 1px solid white;
+  background-color: #323232;
+  height: 35px;
+}
+.mainReservation input, .mainReservation select {
+  padding: 8px;
+}
+.mainReservation .line2 {
+  margin-top: 20px;
+  width: 93%;
+  height: 1px;
+  background-color: #AE9A64;
+}
+.mainReservation .label2 {
+  width: 93%;
+  margin-top: 40px;
+  color: white;
+  font-size: 14px;
+}
+.mainReservation .inputTime {
+  width: 93%;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.mainReservation .inputTime .time {
+  width: 100%;
+  background-color: #323232;
+  border: 1px solid white;
+  color: white;
+}
+.mainReservation .reservNon {
+  margin-top: 5%;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainReservation .reservNon a .button6 {
+  background-color: #ac9044;
+  color: white;
+  padding: 8px 13px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.mainReservation .reservNon a .button6:hover {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+}
+
+@media screen and (max-width: 576px) {
+  .mainReservation {
+    height: 150vh;
+  }
+  .mainReservation .makeAReservation {
+    width: 70%;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 9vw;
+  }
+  .mainReservation .toHelpUs {
+    width: 70%;
+  }
+  .mainReservation .inputDataAll {
+    width: 100%;
+  }
+  .mainReservation .inputDataAll .inputData1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mainReservation .inputDataAll .inputData1 .inputData1_2 {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 5px;
+  }
+  .mainReservation .inputTime {
+    grid-template-columns: auto auto auto;
+  }
+  footer .footP {
+    width: 70%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=reservation.css.map */

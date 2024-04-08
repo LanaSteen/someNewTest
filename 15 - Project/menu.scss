@@ -1,0 +1,131 @@
+.mainMenu {
+    width: 100%;
+    height: 150vh;
+    color: #AE9A64;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .headDi {
+        letter-spacing: 5px;
+        margin-top: 10%;
+        font-size: 10vw;
+    }
+    .cont88 {
+        width: 80%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        .block2 {
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            h2  {
+                font-size: 6vw;
+            }
+        }
+        .block2 {
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            position: relative;
+            .price {
+                position: absolute;
+                top: 5px;
+                right: 0;
+                font-family: var(--font_7);
+            }
+        }
+    }
+    .line {
+    width: 100%;
+    border: 1px solid #AE9A64;
+    }
+    footer {
+        width: 100%;
+        margin-top: 8vw;
+        padding: 20px;
+        a {
+            color: #AE9A64;
+            text-decoration:underline;
+        }
+    }
+}
+@media screen and (max-width: 576px){
+    .mainMenu {
+        width: 100%;
+        height: 170vh !important;
+        .headDi {
+            margin-top: 40%;
+        }
+        .cont88 {
+            width: 90%;
+            .block2 {
+                h2 {
+                    margin-top: 50px;
+                    font-size: 10vw;
+                }
+                h2, h3 {
+                    width: 70%;
+                }
+                p {
+                    width: 90%;
+                }
+            }
+            .block2 {
+                .price {
+  
+                }
+            }
+        }
+        .line {
+
+        }
+    }
+    footer {
+        text-align: center;
+        height: 20vh !important;
+        .footP {
+            padding: 5%;
+            font-size: 1,2vw;
+            color: #ac9044;
+            a {
+                color: #ac9044;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #323232;
+    .footP {
+        padding: 5%;
+        font-size: 1,2vw;
+        color: #ac9044;
+        a {
+            color: #ac9044;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+
+:root {
+    --font_7: normal normal normal 16px / 1.4em georgia, palatino, 'book antiqua', 'palatino linotype', serif;
+}
